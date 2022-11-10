@@ -27,7 +27,7 @@ public class orange_class_task {
 	//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	driver.get(url);
  	}	
-	@Test(enabled=true,priority = 0)
+	@Test(enabled=true,priority=0)
 	public void testcase1() throws InterruptedException
 	{
 		Thread.sleep(3000);
@@ -48,7 +48,7 @@ public class orange_class_task {
        }
 	 }
 		
-	  @Test(enabled=true,priority = 2)
+	  @Test(enabled=true,priority=2)
 	  public void testcase3() throws InterruptedException
 	 {
 	 driver.findElements(By.xpath("//*[@class='oxd-icon bi-check oxd-checkbox-input-icon']")).get(8).click();
